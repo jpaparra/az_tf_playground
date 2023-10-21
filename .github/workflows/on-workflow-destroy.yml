@@ -1,10 +1,5 @@
 on:
-  workflow_run:
-    workflows: ["Build"]
-    types: [requested]
-    branches:
-      - 'main'
-      - 'v**'
+  workflow_dispatch:
 
 name: On Workflow Destroy
 
